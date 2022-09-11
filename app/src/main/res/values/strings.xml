@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShareCareDesign</string>
+    <string name="share_care">ShareCare</string>
+    <string name="welcome_to_uiu_community">Welcome To UIU Community</string>
+    <string name="log_in">Log IN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in_to_home">Log in</string>
+    <string name="share_care_log_in">Share Care</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+</resources>
