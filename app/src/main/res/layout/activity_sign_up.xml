@@ -30,7 +30,7 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="30dp"
-        android:text="Name :"
+        android:text="@string/name"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
@@ -47,7 +47,7 @@
         android:backgroundTintMode="screen"
         android:ems="10"
         android:hapticFeedbackEnabled="false"
-        android:hint="Enter your name"
+        android:hint="@string/enter_your_name"
         android:drawableStart="@drawable/ic_person_24"
         android:drawablePadding="12dp"
         android:paddingStart="12dp"
@@ -62,29 +62,35 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email :"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="39dp"
+        android:text="@string/email"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="266dp"
         android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="13dp"
         android:background="@drawable/custom_input"
         android:backgroundTintMode="screen"
         android:drawableStart="@drawable/ic_email_24"
         android:drawablePadding="12dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
         android:ems="10"
         android:hapticFeedbackEnabled="false"
-        android:hint="Enter your email"
+        android:hint="@string/enter_your_email"
         android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="196dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
 
 
