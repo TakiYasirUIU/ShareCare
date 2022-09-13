@@ -21,4 +21,6 @@
     <string name="enter_your_password">Enter your password</string>
     <string name="submit">SUBMIT</string>
     <string name="enter_your_password_confirm">Enter your password confirm</string>
+    <string name="share_ride">SHARE RIDE</string>
+    <string name="take_ride">TAKE RIDE</string>
 </resources>
