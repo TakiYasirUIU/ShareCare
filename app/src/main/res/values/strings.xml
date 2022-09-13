@@ -14,4 +14,10 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="name">Name :</string>
     <string name="enter_your_student_id">Enter your student ID</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="phone">Phone :</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="submit">SUBMIT</string>
 </resources>
