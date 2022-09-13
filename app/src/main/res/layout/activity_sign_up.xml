@@ -99,7 +99,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="35dp"
-        android:text="ID       :"
+        android:text="ID        :"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
@@ -121,7 +121,49 @@
         android:paddingEnd="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+    <!--Enter Your Phone Number-->
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="35dp"
+        android:text="Phone :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
-    <!--Enter your phone-->
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="267dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTintMode="screen"
+        android:drawableStart="@drawable/ic_phone_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Enter your phone number"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <!--Select Your Gender-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
