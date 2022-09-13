@@ -16,7 +16,7 @@
         android:backgroundTintMode="screen"
         android:drawablePadding="12dp"
         android:ems="10"
-        android:hint="@string/enter_your_password"
+        android:hint="@string/enter_your_password_confirm"
         android:inputType="textPassword"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
