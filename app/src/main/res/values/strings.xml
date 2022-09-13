@@ -13,4 +13,5 @@
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_name">Enter your name</string>
     <string name="name">Name :</string>
+    <string name="enter_your_student_id">Enter your student ID</string>
 </resources>
