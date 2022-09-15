@@ -13,7 +13,6 @@
         android:layout_marginStart="107dp"
         android:layout_marginTop="141dp"
         android:layout_marginEnd="115dp"
-        android:background="#000000"
         android:backgroundTint="#F57F17"
         android:text="@string/take_ride"
         android:textColor="#000000"
@@ -23,20 +22,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/share_ride_button"
-        android:layout_width="186dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="107dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="118dp"
-        android:background="#F57F17"
-        android:text="@string/share_ride"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/take_ride_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,7 +52,6 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="144dp"
-        android:background="#F57F17"
         android:backgroundTint="#F57F17"
         android:onClick="launchLogInHome"
         android:text="@string/log_in_to_home"
